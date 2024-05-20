@@ -181,7 +181,7 @@ sudo apt install mysql-client -y
 <img width="937" alt="Screenshot 2024-05-20 at 18 37 00" src="https://github.com/sheezylion/client-server-architecture-mysql/assets/142250556/8620fe10-0b70-4a9c-abc5-19921db31e26">
 
 
-### CONNECT TO THE MYSQL SERVER FROM THE MYSQL CLIENT-SERVER
+### Connect to the MYSQL server from mysql client-server 
 
 Both EC2 instances were launched in the same VPC, so by default they can communicate with each other using their local IP addresses. 
 We will be using the MySQL server's local IP address (private IP) to connect from the MySQL client. MySQL server uses TCP port 3306 by default, 
